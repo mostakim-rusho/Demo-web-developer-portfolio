@@ -1,0 +1,396 @@
+/* common shared style */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 226px;
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 50px;
+}
+
+.button {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 0;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    padding: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+/* header ralated style */
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(/images/header_bg.png),url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-greating {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+}
+
+.banner-title {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+banner-text {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    width: 585px;
+}
+
+/* main sectioins styles */
+
+.about {
+    /* width: 1140px; */
+    height: 550px;
+    flex-shrink: 0;
+    /* padding: 230px; */
+    border: 10px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 230px 130px 230px;
+
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* margin: 131px 486px 371px 485px; */
+    padding: 131px 400px 30px 400px;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    /* margin-bottom: 30px; */
+    padding-bottom: 3px;
+    padding: 0px 156px;
+}
+
+/* about sections */
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center
+}
+
+/* What i do section start */
+
+.section-title-what {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.what-i-do-description {
+    margin: auto;
+    width: 909px;
+    height: 90px;
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding: 30px auto;
+
+}
+
+.skills-container {
+    display: flex;
+    padding: 0px 200px;
+    gap: 24px;
+    padding-top: 50px;
+
+
+}
+
+.skill-description {
+    /* padding: 30px; */
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+
+}
+
+.skills {
+    padding: 30px;
+    gap: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* resume sectionstyles */
+
+.resume-column-title {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resume-item-bio {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    /* width: 511px; */
+}
+
+.hardy-pic {
+    align-items: right;
+}
+
+.button-02 {
+    margin: 50px 700px;
+    border-radius: 5px;
+    border: none;
+    background: #FD6E0A;
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer {
+    background: #FFF8F3;
+    margin-top: 131px;
+    padding: 0px 230px;
+    padding-bottom: 130px;
+}
+
+.footer-column {
+    display: flex;
+    text-align: left;
+    gap: 117px;
+}
+
+.social-media-icon {
+    padding: 230px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+
+    color: #FD6E0A;
+}
+
+.social-icon-padding {
+    margin-right: 24px;
+}
+
+.social-icon-size {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.footer-section-title {
+    text-align: left;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-section-description {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    text-align: left;
+}
+
+.footer-section-title-2 {
+    color: #181818;
+
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 305px;
+
+
+
+
+
+}
+
+.footer-section-title-2 input,
+textarea {
+    background: #FFF;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    display: block;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+
+
+
+
+
+
+}
+
+.button-03 {
+    background-color: #FD6E0A;
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    color: #FFF;
+    /* text-align: ; */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+#message {
+    width: 461px;
+    height: 180px;
+    flex-shrink: 0;
+    padding: 18px 35px;
+}
